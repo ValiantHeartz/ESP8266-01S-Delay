@@ -2,7 +2,9 @@
 ## 一、软件和库 
 1、arduino安装
 附加开发板管理地址：http://arduino.esp8266.com/stable/package_esp8266com_index.json 通过改地址更新获得8266 by community开发板信息，选择正确的com口即可  
-2、blink点灯科技介入小爱同学  
+2、引脚定义
+直接调用引脚编号，该型号控制器0引脚控制继电器，2引脚控制蓝色灯
+3、blink点灯科技介入小爱同学  
 代码示例 
 ```c 
 #define BLINKER_WIFI
